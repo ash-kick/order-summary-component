@@ -131,12 +131,13 @@ p {
 
     .music-person-img {
         width:  100%;
+        height: 12rem;
     }
 
     main {
-        width: 30rem;
-        height: 43rem;
-        border-radius: 10px;
+        width: 28rem;
+        height: 44rem;
+        border-radius: 20px;
         overflow: hidden;
     }
 
