@@ -23,8 +23,11 @@ main {
     background-color: hsl(0, 0%, 100%);
 }
 
-.selected-plan {
+.plan-info {
     background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .change {
