@@ -21,6 +21,7 @@ html, body {
 
 main {
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 10px 80px hsl(224, 23%, 55%);
 }
 
 h1 {
@@ -30,6 +31,8 @@ h1 {
 
 h2 {
     font-size: 16px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
 }
 
 .order-info {
@@ -40,16 +43,21 @@ h2 {
     margin: 20px;
 }
 
+
 .plan-info {
     background-color: hsl(225, 100%, 98%);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .change {
     color: hsl(245, 75%, 52%);
     text-decoration: underline;
+    font-weight: 700;
     margin: 30px;
 }
 
@@ -58,6 +66,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 
@@ -69,6 +78,8 @@ button {
     border-radius: 10px;
     height: 3rem;
     width: 100%;
+    box-shadow: 5px 10px 30px hsl(224, 23%, 55%);
+    margin-bottom: 40px;
 }
 
 button:hover {
@@ -94,7 +105,20 @@ p {
     }
 
     main {
-        width: 20rem;
+        width: 30rem;
+        border-radius: 10px;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+
+    .music-person-img {
+        width:  100%;
+    }
+
+    .text-content {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
     }
 }
 /* desktop design */
